@@ -1,0 +1,91 @@
+# ############################
+# Numerous always-ignore extensions
+# ############################
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*.class
+
+# ############################
+# OS specific files
+# ############################
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+
+# ############################
+# Editors
+# ############################
+# Idea IntelliJ Editor
+.idea
+.idea/DCSPointFormFieldBundle.iml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+*.iml
+*.ipr
+*.iws
+
+# Eclipse Project Files
+.classpath
+.project
+.settings/
+
+# Other Editors
+*.sublime-*
+.tmproj
+*.komodoproject
+.komodotools
+
+# #####################
+# SASS
+# #####################
+.sass-cache
+.sass-cache/*
+
+# #####################
+# Node
+# #####################
+/node/**
+/node_modules/**
+.npm
+.nodemonignore
+npm-debug.log*
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/bower_components
+
+# misc
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+testem.log
+
+# App generated & config files
+/public/css/*.css
+/public/css/*.map
+/public/js/*.js
+/public/js/*.map
