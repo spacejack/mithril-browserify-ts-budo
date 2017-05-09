@@ -1,6 +1,8 @@
-# Mithril / Typescript / Browserify / HMR / Budō
+# Mithril / Typescript / Browserify / Code-Splitting/ HMR / Budō
 
 This is a starter project for [Mithril](https://mithril.js.org/), Typescript, Browserify with hot-module-replacement and [Budō](https://github.com/mattdesl/budo) local dev server for hot CSS reloading.
+
+This project does code splitting, so browserify will output two separate bundles: `app.js` and `vendor.js`.
 
 This project also uses PostCSS for CSS compilation.
 
