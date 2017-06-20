@@ -22,20 +22,20 @@
     "mithril": "^1.1.1"
   },
   "devDependencies": {
-    "@types/mithril": "^1.1.2",
-    "autoprefixer": "^7.0.1",
-    "browserify": "^14.3.0",
+    "@types/mithril": "^1.1.5",
+    "autoprefixer": "^7.1.1",
+    "browserify": "^14.4.0",
     "browserify-hmr": "^0.3.5",
     "budo": "^10.0.3",
     "npm-run-all": "^4.0.2",
     "postcss-clean": "^1.0.2",
-    "postcss-cli": "^4.0.0",
-    "postcss-import": "^9.1.0",
-    "postcss-nesting": "^3.0.0",
+    "postcss-cli": "^4.1.0",
+    "postcss-import": "^10.0.0",
+    "postcss-nesting": "^4.0.1",
     "tsify": "^3.0.1",
-    "tslint": "^5.2.0",
-    "tslint-microsoft-contrib": "^4.0.1",
-    "typescript": "^2.3.2",
-    "uglify-js": "^3.0.1"
+    "tslint": "^5.4.3",
+    "tslint-microsoft-contrib": "^5.0.0",
+    "typescript": "^2.3.4",
+    "uglify-js": "^3.0.18"
   }
 }
