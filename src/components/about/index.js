@@ -1,8 +1,8 @@
-import * as m from 'mithril'
+import m from 'mithril'
 import nav from '../nav'
 
 export default {
-	view (vnode) {
+	view() {
 		return m('.page.about', [
 			m(nav),
 			m('h1', 'About'),
@@ -10,4 +10,4 @@ export default {
 			m('.test', 'This div tests flex styles and autoprefixer.')
 		])
 	}
-} as m.Component<{}, {}>
+}
