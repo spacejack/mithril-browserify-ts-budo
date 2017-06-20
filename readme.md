@@ -1,6 +1,6 @@
-# Mithril / Typescript / Browserify / HMR / Budō
+# Mithril / Babel / Browserify / HMR / Budō
 
-This is a starter project for [Mithril](https://mithril.js.org/), Typescript, Browserify with hot-module-replacement and [Budō](https://github.com/mattdesl/budo) local dev server for hot CSS reloading.
+This is a starter project for [Mithril](https://mithril.js.org/), Babel, Browserify with hot-module-replacement and [Budō](https://github.com/mattdesl/budo) local dev server for hot CSS reloading.
 
 This project also uses PostCSS for CSS compilation.
 
