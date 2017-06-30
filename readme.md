@@ -4,10 +4,6 @@ This is a starter project for [Mithril](https://mithril.js.org/), Babel, Browser
 
 This project also uses PostCSS for CSS compilation.
 
-This repo also contains a branch that performs code-splitting (separating your app and vendor bundles.)
-
-	git checkout code-split
-
 ## Install
 
 	npm install
