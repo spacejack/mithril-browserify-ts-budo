@@ -8,6 +8,12 @@ This repo also contains a branch that performs code-splitting (separating your a
 
 	git checkout code-split
 
+And a Babel branch for plain ES20XX instead of Typescript.
+
+	git checkout babel
+
+Note that each branch has different npm dependencies so you will need to run `npm install` for the branch you want to use.
+
 ## Install
 
 	npm install
