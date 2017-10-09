@@ -35,6 +35,7 @@
     "postcss-custom-properties": "^6.2.0",
     "postcss-import": "^11.0.0",
     "postcss-nesting": "^4.2.1",
+    "stylelint-config-recommended": "^1.0.0",
     "tsify": "^3.0.3",
     "tslint": "^5.7.0",
     "tslint-microsoft-contrib": "^5.0.1",

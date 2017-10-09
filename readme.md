@@ -18,6 +18,16 @@ Note that each branch has different npm dependencies so you will need to run `np
 
 	npm install
 
+### Recommended VSCode Extensions
+
+* tslint
+* eslint
+* stylelint
+* postcss-sugarss-language
+* EditorConfig
+
+(Or equivalents for your preferred editor/IDE.)
+
 ## Run & Develop
 
 	npm start
