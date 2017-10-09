@@ -5,6 +5,6 @@ end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 
-[{*.ts,*.js,*.css,*.pcss,*.html,*.md,package.json,.eslintrc,tsconfig.json,jsconfig.json,typings.json}]
+[{*.ts,*.js,*.css,*.pcss,*.html,*.json,*.md,.eslintrc,.stylelintrc}]
 indent_style = space
 indent_size = 2
