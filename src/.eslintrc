@@ -5,12 +5,13 @@
     "no-console": 0,
     "space-infix-ops": 0,
     "curly": 0,
-    "indent": [1, "tab"],
+    "indent": ["warn", 2],
     "new-cap": 0,
     "key-spacing": 0,
     "no-undef": 2,
     "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
     "no-floating-decimal": 1,
+    "semi": ["warn", "always"],
     "space-before-blocks": 1
   },
   "parserOptions": {
