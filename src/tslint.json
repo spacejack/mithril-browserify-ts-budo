@@ -1,5 +1,6 @@
 {
   "extends": ["tslint-microsoft-contrib"],
+  "defaultSeverity": "warn",
   "rules": {
     "align": [false],
     "export-name": false,
@@ -8,6 +9,7 @@
     "no-any": false,
     "no-default-export": false,
     "no-import-side-effect": false,
+    "no-object-literal-type-assertion": false,
     "no-relative-imports": false,
     "ordered-imports": [false],
     "prefer-type-cast": false,

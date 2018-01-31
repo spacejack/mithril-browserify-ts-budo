@@ -9,4 +9,4 @@ export default {
       m('p', 'Welcome to the home page.')
     ]);
   }
-} as m.Component<{}, {}>;
+} as m.Component;

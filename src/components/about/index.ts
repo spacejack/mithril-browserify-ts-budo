@@ -10,4 +10,4 @@ export default {
       m('.test', 'This div tests flex styles and autoprefixer.')
     ]);
   }
-} as m.Component<{}, {}>;
+} as m.Component;
