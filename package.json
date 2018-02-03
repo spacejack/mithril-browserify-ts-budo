@@ -1,6 +1,6 @@
 {
   "name": "mithril-browserify-ts-budo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Mithril / Babel / Browserify / HMR / Budo",
   "main": "index.js",
   "scripts": {
@@ -21,23 +21,24 @@
   "author": "spacejack",
   "license": "MIT",
   "dependencies": {
-    "mithril": "^1.1.4"
+    "mithril": "^1.1.6"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.5",
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "babelify": "^7.3.0",
-    "browserify": "^14.4.0",
-    "browserify-hmr": "^0.3.5",
-    "budo": "^10.0.4",
-    "npm-run-all": "^4.1.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.2.0",
+    "browserify-hmr": "^0.3.6",
+    "budo": "^11.0.1",
+    "npm-run-all": "^4.1.2",
     "postcss-clean": "^1.1.0",
     "postcss-cli": "^4.1.1",
     "postcss-custom-properties": "^6.2.0",
     "postcss-import": "^11.0.0",
     "postcss-nesting": "^4.2.1",
-    "stylelint-config-recommended": "^1.0.0",
-    "uglify-js": "^3.1.3"
+    "stylelint-config-recommended": "^2.0.1",
+    "uglify-js": "^3.3.9"
   },
   "browserify": {
     "transform": [
