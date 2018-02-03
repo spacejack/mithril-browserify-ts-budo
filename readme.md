@@ -23,7 +23,7 @@ Note that each branch has different npm dependencies so you will need to run `np
 * tslint
 * eslint
 * stylelint
-* postcss-sugarss-language
+* PostCSS Syntax
 * EditorConfig
 
 (Or equivalents for your preferred editor/IDE.)
