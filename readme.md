@@ -39,3 +39,7 @@ Then go to http://localhost:3000 in your browser
 	npm run build
 
 Outputs compiled JS to `public/js` and CSS to `public/css`.
+
+---
+
+For a more barebones Mithril/Typescript example (no PostCSS, no live-reload/HMR) take a look at [this repo](https://github.com/spacejack/mithril-ts-example).
