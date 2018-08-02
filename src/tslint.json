@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint-microsoft-contrib"],
+  "extends": ["tslint:recommended"],
   "defaultSeverity": "warn",
   "rules": {
     "align": [false],
@@ -32,6 +32,7 @@
     "no-unused-expression": false,
     "no-unused-variable": true,
     "number-literal-format": false,
+    "object-literal-sort-keys": false,
     "one-variable-per-declaration": false,
     "ordered-imports": [false],
     "prefer-array-literal": false,
@@ -40,6 +41,8 @@
     "prefer-template": false,
     "prefer-type-cast": false,
     "quotemark": false,
+    "space-before-function-paren": false,
+    "trailing-comma": false,
     "typedef": [false],
     "use-named-parameter": false
   }

@@ -1,6 +1,6 @@
 {
   "name": "mithril-browserify-ts-budo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Mithril / Typescript / Browserify / HMR / Budo",
   "main": "index.js",
   "scripts": {
@@ -25,21 +25,20 @@
   },
   "devDependencies": {
     "@types/mithril": "^1.1.12",
-    "autoprefixer": "^7.2.5",
-    "browserify": "^16.0.0",
+    "autoprefixer": "^9.0.2",
+    "browserify": "^16.2.2",
     "browserify-hmr": "^0.3.6",
-    "budo": "^11.1.0",
-    "npm-run-all": "^4.1.2",
+    "budo": "^11.3.2",
+    "npm-run-all": "^4.1.3",
     "postcss-clean": "^1.1.0",
-    "postcss-cli": "^5.0.0",
-    "postcss-custom-properties": "^6.2.0",
-    "postcss-import": "^11.0.0",
-    "postcss-nesting": "^4.2.1",
-    "stylelint-config-recommended": "^2.0.1",
-    "tsify": "^3.0.4",
-    "tslint": "^5.9.1",
-    "tslint-microsoft-contrib": "^5.0.2",
-    "typescript": "^2.7.1",
-    "uglify-js": "^3.3.10"
+    "postcss-cli": "^6.0.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-import": "^11.1.0",
+    "postcss-nesting": "^6.0.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "tsify": "^4.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1",
+    "uglify-js": "^3.4.6"
   }
 }
