@@ -1,10 +1,10 @@
 import m from 'mithril';
-import nav from '../nav';
+import Nav from '../Nav';
 
 export default {
   view (vnode) {
     return m('.page.home', [
-      m(nav),
+      m(Nav),
       m('h1', 'Home'),
       m('p', 'Welcome to the home page.')
     ]);
