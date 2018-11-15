@@ -42,4 +42,40 @@ Outputs compiled JS to `public/js` and CSS to `public/css`.
 
 ---
 
+## Using this repo to start your own project
+
+To use this repo to create your own project follow these steps.
+
+1 - Clone this repo into a directory with a custom name (eg. `your-project-name` instead of the default `mithril-browserify-ts-budo`)
+
+```
+git clone https://github.com/spacejack/mithril-browserify-ts-budo.git your-project-name
+```
+
+2 - `cd` into this new directory
+
+```
+cd your-project-name
+```
+
+3 - Remove the `.git` directory so it is no longer linked to this repo:
+
+```
+rm -fr .git
+```
+
+4 - Initialize it as a new git repo and point it at your own remote (assumes you've created one on Github, Bitbucket, Gitlab, etc.):
+
+```
+git init
+git remote add origin <your-repo-url>
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+Now you can follow the [install](#install) instructions above.
+
+---
+
 For a more barebones Mithril/Typescript example (no PostCSS, no live-reload/HMR) take a look at [this repo](https://github.com/spacejack/mithril-ts-example).
