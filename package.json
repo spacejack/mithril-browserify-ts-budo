@@ -1,6 +1,6 @@
 {
   "name": "mithril-browserify-ts-budo",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "Mithril / Typescript / Browserify / HMR / Budo",
   "main": "index.js",
   "scripts": {
@@ -21,10 +21,10 @@
   "author": "spacejack",
   "license": "MIT",
   "dependencies": {
-    "mithril": "^1.1.6"
+    "mithril": "^2.0.4"
   },
   "devDependencies": {
-    "@types/mithril": "^1.1.17",
+    "@types/mithril": "^2.0.0",
     "autoprefixer": "^9.6.1",
     "browserify": "^16.5.0",
     "browserify-hmr": "^0.3.7",

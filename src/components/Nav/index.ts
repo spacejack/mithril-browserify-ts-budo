@@ -1,25 +1,23 @@
 import m from 'mithril';
 
-export default {
-  view() {
+const Nav: m.Component = {
+  view: () => {
     const r = m.route.get();
     return m('nav',
       m('ul',
         m('li',
-          m('a',
+          m(m.route.Link,
             {
               href: '/',
-              oncreate: m.route.link,
               class: r === '/' ? 'active' : ''
             },
             'Home'
           )
         ),
         m('li',
-          m('a',
+          m(m.route.Link,
             {
               href: '/about',
-              oncreate: m.route.link,
               class: r === '/about' ? 'active' : ''
             },
             'About'
@@ -29,3 +27,5 @@ export default {
     );
   }
 };
+
+export default Nav;
